@@ -1,0 +1,5 @@
+name: Chat-Emotes
+version: ${git.commit.id.abbrev}
+author: AgentRKID
+main: io.github.agentrkid.chatemotes.ChatEmotes
+depend: [ProtocolLib]

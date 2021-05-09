@@ -1,0 +1,14 @@
+emotes:
+  # Default Emotes (You can remove these,
+  # but make sure you keep a copy of the format)
+  heart:
+    replaceable:
+      - '<3'
+      - ':heart:'
+    emote: '&c❤'
+  no:
+    replaceable:
+      - ':no:'
+    emote: '&c✖'
+    permissible: true
+    permission: 'chat-emotes.no'
