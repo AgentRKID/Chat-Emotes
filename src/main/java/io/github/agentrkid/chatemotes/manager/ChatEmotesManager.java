@@ -1,7 +1,7 @@
 package io.github.agentrkid.chatemotes.manager;
 
 import io.github.agentrkid.chatemotes.ChatEmotes;
-import io.github.agentrkid.chatemotes.listener.ChatListener;
+import io.github.agentrkid.chatemotes.listener.EmoteListener;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -50,6 +50,6 @@ public class ChatEmotesManager {
                 cachedEmotesMap.put(replace.toLowerCase(), emote);
             }
         }
-        Bukkit.getPluginManager().registerEvents(new ChatListener(this), plugin);
+        Bukkit.getPluginManager().registerEvents(new EmoteListener(this, plugin), plugin);
     }
 }

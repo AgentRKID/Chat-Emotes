@@ -12,3 +12,5 @@ emotes:
     emote: '&c✖'
     permissible: true
     permission: 'chat-emotes.no'
+settings:
+  handle-emotes-on-signs: false
